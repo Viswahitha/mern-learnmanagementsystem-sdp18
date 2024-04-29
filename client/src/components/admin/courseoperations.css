@@ -1,0 +1,72 @@
+/* CourseOperations.css */
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  margin-top: 20px;
+}
+.table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dee2e6; /* Border color for table cells */
+  }
+  
+  thead {
+    background-color: #70abe6; /* Light gray background for header */
+  }
+  
+  th {
+    background-color: #6e9dcb; /* Dark background for header cells */
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+  }
+  
+  tr:hover {
+    background-color: #e2e6ea; /* Hover effect for rows */
+  }
+ /* courseoperations.css */
+
+.delete-button,
+.update-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px; /* Optional: Adds margin between buttons */
+}
+
+.delete-button:hover,
+.update-button:hover,
+.add-button:hover {
+  background-color: #0056b3;
+}
+.add-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+  

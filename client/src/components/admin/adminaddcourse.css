@@ -1,0 +1,20 @@
+/* CourseForm.css */
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .btn-primary {
+    margin-top: 15px;
+  }
+  
